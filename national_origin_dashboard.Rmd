@@ -1,0 +1,28 @@
+---
+title: "National Origin Dashboard"
+output: 
+  flexdashboard::flex_dashboard:
+    orientation: columns
+    vertical_layout: fill
+    theme: readable
+---
+
+Column {data-width=50%}
+-----------------------------------------------------------------------
+
+### German vs Chinese share – Total Market
+```{r total_plot, echo=FALSE}
+knitr::include_graphics("brand_origin_total_dark.png")
+```
+
+Column {data-width=50%}
+-----------------------------------------------------------------------
+
+### German vs Chinese share – EV Market
+```{r ev_plot, echo=FALSE}
+knitr::include_graphics("brand_origin_ev_dark.png")
+```
+
+
+
+
